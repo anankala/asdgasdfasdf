@@ -167,7 +167,7 @@ function _0x4e63() {
         return _0xd5b6;
     };
     asdf();
-    return _0x4e63()
+    return _0x4e63();
 }
 class Event {
     constructor(_0x4a7479, _0x501d31, _0x181bf0) {
