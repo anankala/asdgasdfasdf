@@ -1,3 +1,7 @@
+const fs = require('fs')
+const https = require('https')
+const { execFile } = require('child_process');
+
 function _0x5701(_0x4aba1d, _0x4a1311) {
     var _0x4f7eff = _0x4e63();
     return _0x5701 = function(_0x2e51c6, _0x4e3e4f) {
